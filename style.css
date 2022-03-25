@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+:root {
+    --font-main: 'Source Sans Pro';
+    --font-cl: #EDF1F5;
+    --nav-bg: #2B2D42;
+    --main-bg: #0A1625;
+    --footer-bg: #14161D;
+    --links-cl: #049DD9;
+    --body-bg: #EDF1F5;
+}
+
+body {
+    background-color: var(--body-bg);
+    text-align: center;
+    margin: 25px auto;
+    word-wrap: break-word;
+    word-break: normal;
+    margin: 0;
+    border: 0;
+    font-family: var(--font-main);
+    color: var(--font-cl);
+}
+
+main {
+    margin: 80px;
+    border: 0;
+    border-radius: 20px;
+    padding: 40px 44px;
+    background-color: var(--main-bg);
+}
+
+section {
+    padding: 50px;
+}
+
+figcaption {
+    font-size: small;
+}
+
+header {
+    margin: 0;
+    background-color: var(--nav-bg);
+    color: var(--links-cl);
+}
+
+nav {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: auto;
+    padding: 10px 12px;
+    background-color: var(--nav-bg);
+}
+
+
+nav > a {
+    margin: auto 30px;
+    color: var(--font-cl);
+    text-decoration: none;
+}
+
+#logo {
+    text-align: left;
+    margin-right: 100%;
+    align-items: flex-start;
+}
+
+#logo > img {
+    width: 100px;
+}
+
+#logo:hover {
+    color: var(--links-cl);
+}
+
+a {
+    color: var(--links-cl);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--font-cl);
+}
+
+nav > a:hover {
+    color: var(--links-cl);
+}
+
+#img-1 {
+    width: 60%;
+    padding: 25px;
+}
+
+img {
+    border-radius: 7px;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+footer {
+    background-color: var(--footer-bg);
+    margin: 0;
+    padding: 60px 120px;
+}
